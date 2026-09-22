@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Luzia | Cozinha Tradicional Angolana de Autor em Luanda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVEGAÇÃO -->
+    <header class="site-header">
+        <div class="logo">Chef <em>Luzia</em></div>
+        <nav class="nav-links">
+            <a href="#menu">Ementa</a>
+            <a href="#chef">A Chef</a>
+            <a href="#experiencias">Bebidas & Bar</a>
+            <a href="#contacto" class="btn-nav">Reservar Mesa</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="hero-tag">Luanda • Cozinha de Autor</span>
+                <h1 class="hero-title">Onde a memória da infância vira alta <em>cozinha tradicional</em>.</h1>
+                <p class="hero-text">Calulu fumegante, moamba apurada e o peixe mais fresco da costa preparada pelas mãos experientes da Chef Luzia.</p>
+                <div class="hero-actions">
+                    <a href="#menu" class="btn btn-primary">Explorar Ementa</a>
+                    <a href="https://wa.me/244900000000" class="btn btn-secondary" target="_blank" rel="noopener">WhatsApp Direto</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80" alt="Prato tradicional da Chef Luzia" class="hero-img" loading="eager">
+            </div>
+        </section>
+
+        <!-- SEÇÃO: A CHEF E SUA FILOSOFIA -->
+        <section id="chef" class="chef-section">
+            <div class="chef-grid">
+                <div class="chef-image">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=80" alt="Chef Luzia na cozinha" loading="lazy">
+                </div>
+                <div class="chef-content">
+                    <span class="section-tag">A Mão e a Tradição</span>
+                    <h2>"Cozinhar é abraçar quem chega à nossa mesa."</h2>
+                    <p>Com mais de vinte anos dedicada a preservar os segredos dos tachos angolanos, a Chef Luzia une técnicas ancestrais a um rigor contemporâneo inegociável. Cada ingrediente que entra na cozinha tem origem certificada nos mercados locais de Luanda.</p>
+                    <div class="chef-quote-author">
+                        <strong>Luzia Manuel</strong>
+                        <span>Mestre Cozinheira e Fundadora</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: EMENTA VIVA (COM FILTRAGEM) -->
+        <section id="menu" class="menu-section">
+            <div class="section-header">
+                <h2>Ementa da Casa</h2>
+                <p>Pratos icónicos preparados no dia, com porções generosas para partilhar.</p>
+            </div>
+
+            <div class="menu-tabs" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" data-target="principais">Pratos Principais</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-target="especialidades">Especialidades do Mar</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-target="doces">Doces da Terra</button>
+            </div>
+
+            <div class="menu-container" id="menu-items-wrapper">
+                <!-- Principais originais e novos -->
+                <article class="menu-item" data-category="principais">
+                    <div class="item-info">
+                        <h3>Moamba de Galinha Caipira</h3>
+                        <p>Galinha do mato cozinhada lentamente em óleo de palma puro, quiabos tenros e abóbora.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">14.000 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1604908176997-125f2596f37c?auto=format&fit=crop&w=400&q=80" alt="Moamba de galinha" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="principais">
+                    <div class="item-info">
+                        <h3>Calulu de Peixe Seco e Fresco</h3>
+                        <p>Servido com batata-doce, quissango, banana quarenta e o tradicional funge de milho.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">12.500 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Calulu de peixe" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="principais">
+                    <div class="item-info">
+                        <h3>Cabidela de Carne de Porco</h3>
+                        <p>Carne de porco tenra cozinhada no próprio sangue temperado com vinagre, alho e louro, servida com funge.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">13.000 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Cabidela de porco" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="principais">
+                    <div class="item-info">
+                        <h3>Feijão de Óleo de Palma com Muteta</h3>
+                        <p>Feijão manteiga apurado em azeite de dendém rico, acompanhado de mandioca cozida e legumes frescos da horta.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">9.500 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80" alt="Feijão de óleo de palma" loading="lazy">
+                    </div>
+                </article>
+
+                <!-- Especialidades originais e novas -->
+                <article class="menu-item" data-category="especialidades">
+                    <div class="item-info">
+                        <h3>Peixe Grelhado à Ilha com Mufete</h3>
+                        <p>Garoupa fresca na brasa, acompanhada de feijão de óleo de palma, mandioca cozida e molho de cebola.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">16.000 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=400&q=80" alt="Peixe Mufete" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="especialidades">
+                    <div class="item-info">
+                        <h3>Caldeirada de Marisco da Costa</h3>
+                        <p>Camarão tigre, lula fresca e caranguejo cozinhados num caldo aromático de tomate, coentros e pimentão.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">18.500 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=400&q=80" alt="Caldeirada de marisco" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="especialidades">
+                    <div class="item-info">
+                        <h3>Lagosta Grelhada com Manteiga de Alho</h3>
+                        <p>Lagosta fresca da costa atlântica grelhada no ponto com toque de limão e batata-doce assada.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">22.000 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=400&q=80" alt="Lagosta grelhada" loading="lazy">
+                    </div>
+                </article>
+
+                <!-- Doces originais e novos -->
+                <article class="menu-item" data-category="doces">
+                    <div class="item-info">
+                        <h3>Doce de Ginguba com Mousse</h3>
+                        <p>Uma releitura delicada do amendoim torrado com notas crocantes e caramelo salgado.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">4.500 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=400&q=80" alt="Sobremesa de ginguba" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="doces">
+                    <div class="item-info">
+                        <h3>Pudim de Leite Condensado com Côco</h3>
+                        <p>Pudim cremoso tradicional finalizado com lascas de côco fresco tostado e calda de caramelo dourado.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">4.000 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1526318896980-cf78c08b247c?auto=format&fit=crop&w=400&q=80" alt="Pudim de côco" loading="lazy">
+                    </div>
+                </article>
+
+                <article class="menu-item" data-category="doces">
+                    <div class="item-info">
+                        <h3>Bolo de Banana Caramelizada</h3>
+                        <p>Bolo fofo de banana com cobertura de caramelo quente e uma bola de gelado artesanal de baunilha.</p>
+                    </div>
+                    <div class="item-meta">
+                        <span class="price">4.200 Kz</span>
+                    </div>
+                    <div class="menu-preview-img">
+                        <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=400&q=80" alt="Bolo de banana" loading="lazy">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: BEBIDAS E EXPERIÊNCIAS -->
+        <section id="experiencias" class="bar-section">
+            <div class="bar-grid">
+                <div class="bar-text">
+                    <span class="section-tag">Bar e Refrescos</span>
+                    <h2>Acompanhamentos que refrescam a alma</h2>
+                    <p>Da doçura natural do quissango fresco ao capindó aromático, o nosso bar complementa a refeição com os sabores autênticos que fazem parte das nossas tardes quentes.</p>
+                    <ul class="bar-list">
+                        <li><strong>Quissango artesanal</strong> (fresco e ligeiramente fermentado)</li>
+                        <li><strong>Sumo de Maboque</strong> (fruta silvestre da terra)</li>
+                        <li><strong>Água de Coco gelada</strong> servida no próprio fruto</li>
+                        <li><strong>Capindó aromático</strong> (infusão revigorante de capim-limão com gengibre)</li>
+                        <li><strong>Cuca artesanal fresca</strong> (cerveja tradicional gelada de 33cl)</li>
+                        <li><strong>Sumo natural de Mukua</strong> (polpa rica do fruto do embondeiro, vitamina e frescura)</li>
+                    </ul>
+                </div>
+                <div class="bar-media">
+                    <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=800&q=80" alt="Bebidas tradicionais e refrescos" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: TESTEMUNHOS / CLIENTES -->
+        <section class="testimonials-section">
+            <div class="section-header center">
+                <h2>O que dizem os nossos clientes</h2>
+                <p>Histórias de quem já sentiu o calor da nossa mesa.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"O melhor calulu que comi em Luanda nos últimos anos. A consistência do funge e o tempero da Chef Luzia levam-nos direto a casa da avó."</p>
+                    <span>— Dr. Armando Fonseca</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Espaço acolhedor, atendimento irrepreensível e uma moamba simplesmente inesquecível. Recomendo a 100%."</p>
+                    <span>— Mariana Costa</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto" class="site-footer">
+        <div class="footer-content">
+            <h3>Venha provar a verdadeira Luanda</h3>
+            <p>Rua Principal da Ilha do Cabo, Luanda • Aberto de Terça a Domingo das 12h00 às 22h00</p>
+            <div class="footer-actions">
+                <a href="tel:+244900000000" class="btn btn-primary">Ligar para Mesa: +244 900 000 000</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chef Luzia. Todos os direitos reservados.</p>
+            <p class="footer-credit">Projeto de demonstração — desenvolvido por <a href="https://github.com/Teca09" target="_blank" rel="noopener">Feliciano Teca</a>.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
