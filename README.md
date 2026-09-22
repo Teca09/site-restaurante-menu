@@ -4,7 +4,7 @@ Site fictício desenvolvido como peça de portfólio para o nicho de **restaura�
 (restaurantes, snack-bares, casas de pasto e afins que precisam de mostrar o menu
 e facilitar reservas/pedidos online).
 
-🔗 **Demo ao vivo:** _(adicionar link do GitHub Pages depois do deploy)_
+🔗 **Demo ao vivo:** _[Sabor da Luzia — Cozinha tradicional angolana em Luanda](https://teca09.github.io/site-restaurante-menu/)_
 
 ## Sobre o projeto
 
